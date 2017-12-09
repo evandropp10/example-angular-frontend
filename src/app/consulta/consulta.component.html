@@ -1,0 +1,21 @@
+<h1 style="text-align: center; margin-top: 10%">CONSULTA</h1>
+
+<div class="botao-atualiza">
+  <button  mat-raised-button (click)="atualizaLista()">Atualizar</button>
+</div>
+
+<table matSort class="lista" (matSortChange)="sortData($event)">
+  <tr>
+    <th mat-sort-header="email">E-mail</th>
+    <th mat-sort-header="idVisitante">ID Visitante</th>
+    <th mat-sort-header="url">URL</th>
+    <th mat-sort-header="dataHora">Data e hora</th>
+  </tr>
+
+  <tr *ngFor="let registro of registros">
+    <td>{{registro.email}}</td>
+    <td>{{registro.idVisitante}}</td>
+    <td>{{registro.url}}</td>
+    <td>{{registro.dataHora}}</td>
+  </tr>
+</table>

@@ -1,0 +1,16 @@
+
+
+.botao-atualiza {
+  display: flex;
+  flex-direction: column;
+
+  width: 6%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.lista {
+  align-items: center;
+  margin: 0 auto;
+}

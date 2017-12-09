@@ -1,0 +1,23 @@
+<mat-toolbar color="primary" *ngIf="telaConsulta == false">
+  <mat-toolbar-row>
+
+    <a  class="espaco-menu" [routerLink]="['/', 'home']">
+      <span class="espaco-menu">Home</span>
+    </a>
+
+    <a  class="espaco-menu" [routerLink]="['/', 'sobre']">
+      <span class="espaco-menu">Sobre</span>
+    </a>
+
+    <a  class="espaco-menu" [routerLink]="['/', 'preco']">
+      <span class="espaco-menu">Preço</span>
+    </a>
+
+    <a  class="espaco-menu" [routerLink]="['/', 'contato']">
+      <span class="espaco-menu">Contato</span>
+    </a>
+
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

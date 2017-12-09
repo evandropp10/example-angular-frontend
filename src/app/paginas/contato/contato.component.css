@@ -1,0 +1,17 @@
+.formulario-email {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-email > * {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.botao-enviar {
+  display: flex;
+  flex-direction: column;
+
+  width: 20%;
+  margin: 0 auto;
+}
